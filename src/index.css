@@ -1,0 +1,15 @@
+*{
+  margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Galano Gortesque;
+  src: url('./assets/fonts/galano-grotesque-alt-cufonfonts/GalanoGrotesqueAltMedium.otf');
+}
+
+@font-face {
+  font-family: Inter;
+  src: url('./assets/fonts/Inter/static/Inter-Medium.ttf')
+}

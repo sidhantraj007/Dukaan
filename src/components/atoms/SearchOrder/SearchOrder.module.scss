@@ -1,0 +1,21 @@
+.inputContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .inputField{
+        height: 100%;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.877);
+        outline: none;
+        border-radius: 8px;
+        border: 0.6px solid rgb(179, 179, 179);
+        font-size: 1rem;
+        font-family: Inter;
+        background-image: url('@assets/images/search.png');
+        background-repeat: no-repeat;
+        background-position: 5%;
+        padding-left: 15%;
+    }
+}

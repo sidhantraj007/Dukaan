@@ -1,0 +1,58 @@
+.card{
+    height: 75%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+    font-family: Inter;
+    color: white;
+    
+
+    .cardtitle{
+       height: 17%;
+       width: 100%;
+       display: flex;
+       justify-content: start;
+       padding-left: 2%;
+       align-items: center;
+       gap: 10px;
+       font-size: 16px;
+
+        
+    }
+    .cardinfo{
+        height: 36%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:0% 2% 0% 2%;
+
+         .price{
+            font-size: 32px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+           
+         }
+         
+     }
+     .nextPayout{
+        height: 30%;
+        width: 104%;
+        position: relative;
+        border-radius: 8px;
+        top: 10%;
+        background-color: #0E4F82;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:2% 3% 0 5%;
+     }
+}
+

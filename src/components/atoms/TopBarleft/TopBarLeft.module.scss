@@ -1,0 +1,23 @@
+.topBarLeft{
+    height: 70%;
+    width: 100%; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding:10px 16px 10px 16px;
+    gap: 15px;
+    .payout{
+     font-family:Galano Gortesque;
+     font-size: 20px;
+    }
+    .hiw{
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        align-items: center;
+        color: #4D4D4D;
+        font-weight: 100;
+        font-family:Galano Gortesque;
+        font-size: 13px;
+    }
+}

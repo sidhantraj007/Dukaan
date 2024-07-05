@@ -1,0 +1,42 @@
+.credit{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background: #353C53;
+    justify-content: space-around;
+    border-radius: 4px;
+    align-items: center;
+    .wallet{
+        height: 75%;
+        width: 20% ;
+        background: #FFFFFF1A;
+        border-radius: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     svg{
+        fill: white;
+        height: 30px;
+        width: 30px;
+     } 
+    }
+    .walletData{
+       height: 84%;
+       width: 70%;
+       font-family: Inter;
+       color: white;
+       display: flex;
+       justify-content: space-evenly;
+       align-items: start;
+       flex-direction: column;
+       .walletText{
+        font-size: 13px;
+        font-family: Inter;
+       }
+       .creditsAmount{
+        font-size: 16px;
+        font-family: Inter;
+       }
+    }
+
+}

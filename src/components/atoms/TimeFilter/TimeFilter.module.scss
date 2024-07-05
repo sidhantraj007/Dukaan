@@ -1,0 +1,43 @@
+// DropdownMenu.scss
+
+.dropdowncontainer {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dropdown {
+    font-size: 16px;
+    height: 50%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+  
+    &:hover {
+      outline: none;
+      border-color: #333;
+    }
+  
+    &:focus {
+      outline: none;
+      border-color: #333;
+    }
+  
+    option {
+      font-size: 16px;
+      padding: 8px;
+      cursor: pointer;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+  
+      &:hover {
+        background-color: #007bff;
+        color: #fff;
+      }
+    }
+  }
+  

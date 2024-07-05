@@ -1,0 +1,10 @@
+body{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+::-webkit-scrollbar{
+    visibility: hidden;
+    width: 0px;
+  }

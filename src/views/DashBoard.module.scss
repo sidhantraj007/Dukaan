@@ -1,0 +1,112 @@
+.dashboard{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(245, 245, 245);
+    .upperContainer{
+        height: 35%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        .description{
+            height: 30%;
+           
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0% 4% 0% 4%;
+        }
+        .overview{
+            font-family: Galano Gortesque;
+            font-size: 20px;
+        }
+        .timefilter{
+            height: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .CardContainer{
+            height: 70%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 0% 4% 0% 4%;
+        }
+        .priceCardContainer{
+            height: 80%;
+            width: 30%;
+        }
+    }
+    .lowerContainer{
+        height: 65%;
+        width: 100%;
+        font-family: Inter;
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        align-items: center;
+        flex-direction: column;
+        
+        .lowerHeader{
+          height: 10%;
+          width: 100%;
+          background-color: white;
+          display: flex;
+          justify-content: start;
+          padding-left: 4%;
+          align-items: center;
+          font-size: 20px;
+        }
+        .buttonContainer{
+            height: 10%;
+            width: 100%;
+            display: flex;
+            justify-content: start;
+            gap: 10px;
+            padding-left: 4%;
+            align-items: center;
+        }
+        .tablewrap{
+            height: 70%;
+            width: 92%;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            align-items: center;
+            .tableHeader{
+               height: 15%;
+               display: flex;
+               justify-content: space-between;
+               align-items: center;
+               width: 100%;
+               .searchoption{
+                height: 80%;
+                width: 20%;
+               }
+               .moreoptions{
+                height: 80%;
+                width: 15%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+               }
+            }
+            .tableDiv{
+                height: 80%;
+                overflow: scroll;
+                width: 100%;
+            }
+            
+        }
+    }
+}
